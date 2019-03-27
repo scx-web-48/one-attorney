@@ -1,0 +1,61 @@
+.container-fluid {
+    padding: 0;
+}
+/* 头部 */
+.header {
+    box-sizing: border-box;
+    height: 50px;
+    background-color: #fff;
+    padding-left: 34px;
+    line-height: 50px;
+}
+.header img {
+    width: 28px;
+    height: 30px;
+    margin-right: 13px;
+}
+.header h1{
+    display: inline;
+    font-size: 16px;
+    font-weight: 900;
+}
+/* 导航 */
+.nav {
+    box-sizing: border-box;
+    background-color: #da2f3c;
+    height: 50px;
+    padding: 0 16px 0 18px;
+    line-height: 50px;
+}
+.nav h2 {
+    display: inline;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+    vertical-align: baseline;
+}
+.nav img {
+    width: 18px;
+    height: 16px;
+    vertical-align: text-bottom;
+}
+.nav .phone {
+    float: right;
+    margin-top: 16px;
+} 
+/* 广告--图片 */
+.banner {
+    height: 220px;
+    margin-bottom: 75px;
+}
+/* 业务领域 */
+.business {
+    height: 30px;
+}
+.business h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 900;
+}

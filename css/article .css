@@ -1,0 +1,161 @@
+body.container-fluid {
+    padding: 0;
+}
+
+/* 头部 */
+.header {
+    box-sizing: border-box;
+    height: 50px;
+    background-color: #fff;
+    padding-left: 16px;
+    line-height: 50px;
+}
+
+.header img {
+    width: 28px;
+    height: 30px;
+    margin-right: 13px;
+}
+
+.header h1 {
+    display: inline;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+/* 导航 */
+.nav {
+    box-sizing: border-box;
+    background-color: #da2f3c;
+    height: 50px;
+    padding: 0 16px 0 18px;
+    line-height: 50px;
+}
+
+.nav h2 {
+    display: inline;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+    vertical-align: baseline;
+}
+.nav span {
+    font-size: 22px;
+    color: #fff;
+}
+.nav img {
+    width: 18px;
+    height: 16px;
+    vertical-align: text-bottom;
+}
+.nav .phone {
+    float: right;
+    margin-top: 16px;
+} 
+
+/* 页面主体部分 */
+.articleBody {}
+
+.articleBody h3 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.bodyTime {
+    color: #999999;
+    font-size: 14px;
+}
+
+.articleProperty {
+    font-size: 16px;
+    color: #DA2F3C;
+    margin-top: 30px;
+}
+
+/* 摘要 */
+.articleBody .articleAbstract {
+    color: #666666;
+
+}
+
+.articleImg {
+    width: 100%;
+    height: 156px;
+}
+
+.articleBody p {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+/* 文章切换按钮 */
+.articleBtn {
+    margin-top: 77px;
+    margin-bottom: 77px;
+    overflow: hidden;
+}
+
+.articleBtn a {
+    float: right;
+    margin-left: 37px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.articleBtn .click {
+    color: #EB4646;
+}
+
+/* 文章推荐-- 热门 */
+.hotArticle {
+    border: 1px solid #F0F0F0;
+    border-top: 0px;
+}
+
+.hotArticleTop {
+    height: 2px;
+    background: #B22122;
+    border-radius: 2px 2px 0 0;
+}
+.hotArticleList {
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.hotArticleList h4 {
+    margin:  24px 0 26px;
+    font-size: 18px;
+    color: #333333;
+}
+/* 联系我们 */
+.relation {
+    height: 376px;
+    
+}
+/* 底部 */
+.footer {
+    height: 384px;
+    background-color: #25272F;
+    box-sizing: border-box;
+    padding: 28px 16px 0;
+    color: #fff;
+}
+.footer h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.footer p {
+    height: 30px;
+    font-size: 14px;
+}
+.footer .row  {
+    text-align: center;
+}
+.footer .row img {
+    margin-top: 20px;
+    height: 106px;
+    width: 106px;
+    margin-bottom: 20px;
+}
