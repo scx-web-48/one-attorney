@@ -6,7 +6,7 @@
     box-sizing: border-box;
     height: 50px;
     background-color: #fff;
-    padding-left: 34px;
+    padding-left: 16px;
     line-height: 50px;
 }
 .header img {
@@ -47,15 +47,15 @@
 /* 广告--图片 */
 .banner {
     height: 220px;
-    margin-bottom: 75px;
+    margin-bottom: 65px;
+}
+.banner img {
+    height: 100%;
+    width: 100%;
 }
 /* 业务领域 */
 .business {
     height: 30px;
-}
-.business h2 {
-    margin: 0;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 900;
+    background: url(../img/index-business-tit.svg)  no-repeat center;
+    margin-bottom: 23px;
 }
