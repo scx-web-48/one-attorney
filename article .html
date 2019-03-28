@@ -9,6 +9,7 @@
     <script src="./js/jquery-1.12.4.min.js"></script>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/article .css">
+    <link rel="stylesheet" href="./css/public.css">
 </head>
 
 <body class="container-fluid">
@@ -102,25 +103,41 @@
     </div>
     <!-- 联系我们 -->
     <div class="relation">
-        
+
     </div>
-    <!-- 底部 -->
-    <div class="footer container">
-        <h4>京云房产律师团</h4>
-        <p>北京总部：北京京云律师事务所</p>
-        <p>地址：北京市东城区建国门内大街18号恒基中心2座1111</p>
-        <p>电话：010-65181196</p>
-        <div class="row">
-            <div class="col-xs-2"></div>
-            <div class="col-xs-4">
-                <img src="./img/phone.png" alt="">
-                <span>扫码关注<br/>微信公众号</span>
+    <div class="foot">
+        <!-- 联系我们 -->
+        <h3 class="contactWeTit"></h3>
+        <div class="contactWe">
+            <p>
+                <span>#</span>&nbsp;&nbsp;&nbsp;留言给我们
+            </p>
+            <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;&nbsp;姓名
+            <input id="contactWeName" type="text" placeholder="请输入您的姓名">
+            <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;&nbsp;电话
+            <input id="contactWePhone" type="text" placeholder="请输入您的电话">
+            <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;&nbsp;备注
+            <input id="contactWedescribe" type="text" placeholder="案件描述">
+            <button>提交</button>
+        </div>
+        <!-- 底部 -->
+        <div class="footer container">
+            <h4>京云房产律师团</h4>
+            <p>北京总部：北京京云律师事务所</p>
+            <p>地址：北京市东城区建国门内大街18号恒基中心2座1111</p>
+            <p>电话：010-65181196</p>
+            <div class="row">
+                <div class="col-xs-1"></div>
+                <div class="col-xs-5">
+                    <img src="./img/微信公众号@3x.png" alt=""><br />
+                    <span>扫码关注<br />微信公众号</span>
+                </div>
+                <div class="col-xs-5">
+                    <img src="./img/客服二维码.png" alt=""><br />
+                    <span>扫码添加<br />官方客服微信</span>
+                </div>
+                <div class="col-xs-1"></div>
             </div>
-            <div class="col-xs-4">
-                <img src="./img/phone.png" alt="">
-                <span>扫码添加<br/>官方客服微信</span>
-            </div>
-            <div class="col-xs-2"></div>
         </div>
     </div>
 </body>
