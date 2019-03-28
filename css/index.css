@@ -311,6 +311,13 @@ div .swiper-pagination-bullet-active {
 }
 
 /* 精英律师--完 */
+/* 为什么选择我们 */
+.selectWe {
+    height: 30px;
+    background: url(../img/为什么选择我们.svg) no-repeat center;
+    margin-bottom: 23px;
+    margin-top: 75px;
+}
 /* 我们的荣誉 */
 .weHonorTit {
     height: 30px;
@@ -341,9 +348,12 @@ div .swiper-pagination-bullet-active {
 .weHonorCard div {
     padding: 0;
 }
-
+.weHonorCard .col-xs-4 {
+    height: 100%;
+}
 .weHonorCard img {
     width: 100%;
+    height: 100%;
 }
 
 .weHonorCard .col-xs-8 {
