@@ -1,6 +1,30 @@
-.container-fluid {
+.container-fluid,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.row {
     padding: 0;
+    margin: 0;
 }
+
+body {
+    background-color: #fafafa;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 /* 头部 */
 .header {
     box-sizing: border-box;
@@ -8,26 +32,32 @@
     background-color: #fff;
     padding-left: 16px;
     line-height: 50px;
+    overflow: hidden;
 }
+
 .header img {
     width: 28px;
     height: 30px;
     margin-right: 13px;
 }
-.header h1{
+
+.header h1 {
     display: inline;
     font-size: 16px;
     font-weight: 900;
 }
+
 /* 导航 */
-.nav {
+.indexNav {
+    overflow: hidden;
     box-sizing: border-box;
     background-color: #da2f3c;
     height: 50px;
     padding: 0 16px 0 18px;
     line-height: 50px;
 }
-.nav h2 {
+
+.indexNav h2 {
     display: inline;
     margin: 0;
     font-size: 16px;
@@ -35,27 +65,348 @@
     color: #fff;
     vertical-align: baseline;
 }
-.nav img {
+
+.indexNav img {
     width: 18px;
     height: 16px;
     vertical-align: text-bottom;
+
 }
-.nav .phone {
+
+.indexNav .phone {
     float: right;
     margin-top: 16px;
-} 
+}
+
+/* 轮播图 */
+div .swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
 /* 广告--图片 */
 .banner {
+    overflow: hidden;
     height: 220px;
     margin-bottom: 65px;
 }
+
 .banner img {
     height: 100%;
     width: 100%;
 }
+
 /* 业务领域 */
 .business {
+    overflow: hidden;
     height: 30px;
-    background: url(../img/index-business-tit.svg)  no-repeat center;
+    background: url(../img/index-business-tit.svg) no-repeat center;
     margin-bottom: 23px;
+}
+
+/* 业务领域--主题 */
+#businessBody {
+    margin-bottom: 75px;
+}
+
+.businessBodyTit {
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.businessBodyTit span img {
+    display: none;
+    width: 3px;
+    height: 3px;
+}
+
+.businessBodyTit .active img {
+    display: inline;
+}
+
+.businessBodyTit .segmentationLine {
+    width: 6px;
+    height: 16px;
+}
+
+.businessBodyTit a {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #333333;
+    letter-spacing: 0;
+}
+
+.businessBodyTit .active a {
+    color: #DA2F3C;
+}
+
+.businessBodyTit a:hover {
+    text-decoration: none;
+}
+
+.businessBody .tab-content .tab-pane {
+    height: 172px;
+}
+
+.businessBodyList ul li {
+    list-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.businessBodyList li>span {
+    display: inline-block;
+    /* width: 42px; */
+    height: 42px;
+    background-color: #DA2F3C;
+    text-align: center;
+    line-height: 42px;
+    padding: 0;
+}
+
+.businessBodyList li img {
+    width: 18px;
+    height: 18px;
+    background-color: #DA2F3C;
+}
+
+.tab-content>.active {
+    width: 100%;
+}
+
+.businessBodyList .left {
+    padding: 0 !important;
+}
+
+.businessBodyList li>a {
+    background: #F8F8F8;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-family: PingFangSC-Medium;
+    font-size: 12px;
+    color: #666666;
+    letter-spacing: 0;
+    line-height: 42px;
+    padding: 0;
+}
+
+.businessBodyList .right {
+    padding: 0;
+    height: 100%;
+}
+
+.businessBodyList .right img {
+    width: 100%;
+    height: 172px;
+}
+
+/* 精英律师 */
+.eliteTit {
+    height: 30px;
+    background: url(../img/精英律师.svg) no-repeat center;
+    margin-bottom: 23px;
+}
+
+#eliteBody {
+    margin-bottom: 20px;
+}
+
+#eliteBody .row {}
+
+.eliteBodyTit {
+    height: 52px;
+}
+
+.eliteBodyTit a {
+    box-sizing: border-box;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    border-right: 1px solid #e5e5e5;
+    color: #333;
+    font-size: 12px;
+}
+
+.eliteBodyTit a:last-child {
+    border-right: 0;
+}
+
+.eliteBodyTit .active {
+    border-top: 2px solid #da2f3c;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#eliteBody>.row {
+    margin: 0 10px;
+    background: #F4F4F4;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+
+#eliteBody .col-xs-1 {
+    display: inline-block;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    padding: 0;
+    background-color: #fff;
+}
+
+#eliteBody .col-xs-1 img {
+    width: 8px;
+    height: 14px;
+}
+
+.eliteBodyTab {
+    background: url(../img/律师背景@3x.png) no-repeat top;
+    background-size: 100% 257px;
+    margin-top: -6px;
+}
+
+.eliteBodyTab>div {
+    padding-top: 25px;
+    overflow: hidden;
+}
+
+.eliteBodyTab>div>img {
+    width: 54%;
+    height: 247px;
+    float: left;
+}
+
+.eliteBodyTab>div>span {
+    float: left;
+    display: inline-block;
+    width: 46%;
+    box-sizing: border-box;
+    padding: 0 20px 0 10px;
+}
+
+.eliteBodyTab>div>span h4 {
+    color: #fff;
+}
+.eliteBodyTab>div>span h4 small {
+    color: #fff;
+}
+
+.eliteBodyTab>div>span h4 img {
+    width: 12px;
+    height: 12px;
+    vertical-align: inherit;
+}
+
+.eliteBodyTab>div>span p {
+    margin-top: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+/* 精英律师--完 */
+
+
+
+/* 联系我们 */
+.contactWeTit {
+    height: 30px;
+    background: url(../img/联系我们.svg) no-repeat center;
+    margin-bottom: 23px;
+}
+.contactWe {
+    box-sizing: border-box;
+    height: 376px;
+    background: #000 url(../img/联系我们背景@3x.png) no-repeat;
+    background-size: 100% 376px;
+    padding: 20px 15px;
+    color: #fff;
+}
+
+.contactWe p {
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.38px;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 20px;
+
+}
+
+.contactWe p span {
+    font-size: 20px;
+}
+
+.contactWe input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #818181;
+    outline: none;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 16px;
+    margin: 8px 0 16px;
+    color: #fff;
+}
+
+.contactWe input:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+.contactWe button {
+    display: block;
+    background: #DA2F3C;
+    height: 42px;
+    border-radius: 4px;
+    line-height: 42px;
+    text-align: center;
+    border: 0px;
+    outline: none;
+    width: 100%;
+}
+
+/* 底部 */
+.footer {
+    height: 384px;
+    background-color: #25272F;
+    box-sizing: border-box;
+    padding: 28px 16px 0;
+    color: #fff;
+}
+
+.footer h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.footer .row {
+    text-align: center;
+}
+
+.footer .row img {
+    margin-top: 20px;
+    height: 106px;
+    width: 106px;
+    margin-bottom: 20px;
+}
+
+.footer .row div {
+    padding: 0;
 }

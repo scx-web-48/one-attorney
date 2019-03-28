@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="133px" height="25px" viewBox="0 0 133 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>精英律师</title>
+    <desc>Created with Sketch.</desc>
+    <g id="设计稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="m.-首页" transform="translate(-122.000000, -703.000000)">
+            <g id="精英律师" transform="translate(0.000000, 698.000000)">
+                <g transform="translate(121.000000, 0.000000)">
+                    <polygon id="Rectangle" fill="#E60D11" opacity="0.201590402" points="38 26 98 26 98 30 38 30"></polygon>
+                    <text id="ELITE-LAWYERS" opacity="0.101888021" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" letter-spacing="0.5333334" fill="#333333">
+                        <tspan x="0" y="17">ELITE LAWYERS</tspan>
+                    </text>
+                    <text font-family="PingFangSC-Semibold, PingFang SC" font-size="22" font-weight="500" letter-spacing="0.7333333" fill="#333333">
+                        <tspan x="21" y="25">精英律师</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
