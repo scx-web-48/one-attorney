@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="31px" viewBox="0 0 112 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>我们的荣誉</title>
+    <desc>Created with Sketch.</desc>
+    <g id="设计稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="m.-首页" transform="translate(-130.000000, -2693.000000)">
+            <g id="我们的荣誉" transform="translate(-1.000000, 2688.000000)">
+                <g transform="translate(131.000000, 0.000000)">
+                    <polygon id="Rectangle" fill="#E60D11" opacity="0.201590402" points="27 32 87 32 87 36 27 36"></polygon>
+                    <text id="Our-honor" opacity="0.101888021" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" letter-spacing="0.5333334" fill="#333333">
+                        <tspan x="16" y="17">Our honor</tspan>
+                    </text>
+                    <text font-family="PingFangSC-Semibold, PingFang SC" font-size="22" font-weight="500" letter-spacing="0.7333333" fill="#333333">
+                        <tspan x="0" y="31">我们的荣誉</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
