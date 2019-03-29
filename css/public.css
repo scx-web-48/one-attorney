@@ -14,6 +14,7 @@ p,
 
 body {
     background-color: #fafafa;
+    font-family: PingFangSC-Semibold;
 }
 
 a {
@@ -71,11 +72,6 @@ ul {
   margin-top: 16px;
 } 
 /* 联系我们 */
-.contactWeTit {
-  height: 30px;
-  background: url(../img/联系我们.svg) no-repeat center;
-  margin-bottom: 23px;
-}
 .contactWe {
   box-sizing: border-box;
   height: 376px;
