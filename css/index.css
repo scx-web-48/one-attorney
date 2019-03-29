@@ -6,7 +6,9 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    background-color: #fafafa;
+}
 /* 头部 */
 .header {
     box-sizing: border-box;
@@ -207,6 +209,10 @@ div .swiper-pagination-bullet-active {
     /*适应苹果*/
     /* -webkit-overflow-scrolling: touch; */
 }
+#eliteTabBox {
+    display: inline-block;
+    position: absolute;
+}
 
 .eliteBodyTit a {
     display: inline-block;
@@ -218,7 +224,7 @@ div .swiper-pagination-bullet-active {
     color: #333;
     font-size: 12px;
     /* padding: 0; */
-    width: 25%;
+    /* width: 25%; */
 }
 
 .eliteBodyTit a:last-child {
@@ -248,6 +254,10 @@ div .swiper-pagination-bullet-active {
     text-align: center;
     padding: 0;
     background-color: #fff;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
 }
 
 #eliteBody .col-xs-1 img {
@@ -271,7 +281,6 @@ div .swiper-pagination-bullet-active {
     height: 247px;
     float: left;
 }
-
 .eliteBodyTab>div>span {
     float: left;
     display: inline-block;
@@ -304,6 +313,53 @@ div .swiper-pagination-bullet-active {
 }
 
 /* 精英律师--完 */
+ /* 成功案例 */
+ .succeedLogo {
+    height: 30px;
+    background: url(../img/成功案例.svg) no-repeat center;
+    margin-bottom: 23px;
+}
+.sudContentBox {
+    width: 100%;
+    padding-right: 16px !important;
+}
+.sudContentBox > li {
+    /* margin-right: 16px; */
+    padding: 0;
+    padding-left: 16px;
+    height: 274px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    overflow: hidden;
+}
+.sudContentBox > li .contentImg {
+    width: 100%;
+    height: 110px;
+    border-radius: 4px 4px 0 0;
+}
+.sudContentBox > li .contentImg > img {
+    width: 100%;
+    height: 100%;
+}
+.contentText {
+    background-color: #fff;
+}
+.contentText > p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    padding: 6px 4px 4px 4px;
+    color: #666666;
+    font-size: 14px;
+}
+.contentText > p:nth-child(1){
+    font-weight: 700;
+    color: #000;
+    font-family: PingFangSC-Regular;
+}
 /* 为什么选择我们 */
 .selectWeTit {
     height: 30px;
@@ -373,7 +429,7 @@ div .swiper-pagination-bullet-active {
 
 }
 
-.weHonorCard {
+.weHonor .weHonorCard {
     width: 90%;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.25);
