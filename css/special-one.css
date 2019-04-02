@@ -1,0 +1,217 @@
+/* 轮播图 */
+div .swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+
+/* 广告--图片 */
+.banner {
+  overflow: hidden;
+  height: 220px;
+  margin-bottom: 65px;
+}
+
+.banner img {
+  height: 100%;
+  width: 100%;
+}
+
+/* 成功案例 */
+.succeedLogo {
+  height: 30px;
+  background: url(../img/成功案例.svg) no-repeat center;
+  margin-bottom: 23px;
+}
+
+.sudContentBox {
+  width: 100%;
+  padding-right: 16px !important;
+}
+
+.sudContentBox>li {
+  /* margin-right: 16px; */
+  padding: 0;
+  padding-left: 16px;
+  height: 274px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 22px;
+  overflow: hidden;
+}
+
+.sudContentBox>li .contentImg {
+  width: 100%;
+  height: 110px;
+  border-radius: 4px 4px 0 0;
+}
+
+.sudContentBox>li .contentImg>img {
+  width: 100%;
+  height: 100%;
+}
+
+.contentText {
+  background-color: #fff;
+}
+
+.contentText>p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  padding: 6px 4px 4px 4px;
+  color: #666666;
+  font-size: 14px;
+}
+
+.contentText>p:nth-child(1) {
+  font-weight: 700;
+  color: #000;
+  font-family: PingFangSC-Regular;
+}
+
+.consult {
+  display: block;
+  width: 100%;
+}
+
+.consult img {
+  width: 100%;
+}
+
+/* 精英律师 */
+.eliteTit {
+  height: 30px;
+  background: url(../img/精英律师.svg) no-repeat center;
+  margin-bottom: 23px;
+}
+
+#eliteBody {
+  margin-bottom: 20px;
+}
+
+#eliteBody .row {}
+
+.eliteBodyTit {
+  box-sizing: border-box;
+  padding: 0;
+  height: 52px;
+  /* display: -webkit-box; */
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  /*适应苹果*/
+  /* -webkit-overflow-scrolling: touch; */
+}
+#eliteTabBox {
+  display: inline-block;
+  position: absolute;
+}
+
+.eliteBodyTit a {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  border-right: 1px solid #e5e5e5;
+  color: #333;
+  font-size: 12px;
+  /* padding: 0; */
+  /* width: 25%; */
+}
+
+.eliteBodyTit a:last-child {
+  border-right: 0;
+}
+
+.eliteBodyTit .active {
+  border-top: 2px solid #da2f3c;
+  background-color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+#eliteBody>.row {
+  margin: 0 10px;
+  background: #F4F4F4;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
+
+#eliteBody .col-xs-1 {
+  display: inline-block;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  padding: 0;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+}
+
+#eliteBody .col-xs-1 img {
+  width: 8px;
+  height: 14px;
+}
+
+.eliteBodyTab {
+  background: url(../img/律师背景@3x.png) no-repeat top;
+  background-size: 100% 257px;
+  margin-top: -6px;
+}
+
+.eliteBodyTab>div {
+  padding-top: 25px;
+  overflow: hidden;
+}
+
+.eliteBodyTab>div>img {
+  width: 54%;
+  height: 247px;
+  float: left;
+}
+.eliteBodyTab>div>span {
+  float: left;
+  display: inline-block;
+  width: 46%;
+  box-sizing: border-box;
+  padding: 0 20px 0 10px;
+}
+
+.eliteBodyTab>div>span h4 {
+  color: #fff;
+}
+
+.eliteBodyTab>div>span h4 small {
+  color: #fff;
+}
+
+.eliteBodyTab>div>span h4 img {
+  width: 12px;
+  height: 12px;
+  vertical-align: inherit;
+}
+
+.eliteBodyTab>div>span p {
+  margin-top: 20px;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+/* 精英律师--完 */
+
+/* 联系我们--标题 */
+.contactWeTit {
+  height: 30px;
+  background: url(../img/联系我们.svg) no-repeat center;
+  margin-bottom: 23px;
+  margin-top: 75px;
+} 
