@@ -13,7 +13,7 @@ $(function () {
     $(this).tab('show');
     $(this).siblings().removeClass('active');
     $(this).addClass('active');
-})
+  })
   //精英律师--主题-- 箭头
   new Swiper('.eliteBodyTit', {
     pagination: null,

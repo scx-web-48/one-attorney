@@ -196,8 +196,6 @@ div .swiper-pagination-bullet-active {
     margin-bottom: 20px;
 }
 
-#eliteBody .row {}
-
 .eliteBodyTit {
     box-sizing: border-box;
     padding: 0;
@@ -318,6 +316,7 @@ div .swiper-pagination-bullet-active {
     height: 30px;
     background: url(../img/成功案例.svg) no-repeat center;
     margin-bottom: 23px;
+    margin-top: 75px;
 }
 .sudContentBox {
     width: 100%;
@@ -327,11 +326,13 @@ div .swiper-pagination-bullet-active {
     /* margin-right: 16px; */
     padding: 0;
     padding-left: 16px;
-    height: 274px;
     overflow: hidden;
-    border-radius: 10px;
     margin-bottom: 22px;
     overflow: hidden;
+}
+.sudContentBox > li>a {
+    display: block;
+    border-radius: 2px;
 }
 .sudContentBox > li .contentImg {
     width: 100%;
@@ -344,6 +345,7 @@ div .swiper-pagination-bullet-active {
 }
 .contentText {
     background-color: #fff;
+    padding-bottom: 6px;
 }
 .contentText > p {
     overflow: hidden;
@@ -360,6 +362,9 @@ div .swiper-pagination-bullet-active {
     color: #000;
     font-family: PingFangSC-Regular;
 }
+.succeedBox>img {
+    width: 100%;
+}
 /* 为什么选择我们 */
 .selectWeTit {
     height: 30px;
@@ -374,6 +379,8 @@ div .swiper-pagination-bullet-active {
     border-radius: 6px;
     margin: 0 16px 20px;
     padding: 1px 0;
+    background: url(../img/选择@3x.png) no-repeat left 200px;
+    background-size: 128px 130px;
 }
 
 .selectWe .row {
