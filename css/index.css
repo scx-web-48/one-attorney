@@ -333,6 +333,7 @@ div .swiper-pagination-bullet-active {
 .sudContentBox > li>a {
     display: block;
     border-radius: 2px;
+    box-shadow: 0px 0px 10px #ccc;
 }
 .sudContentBox > li .contentImg {
     width: 100%;
